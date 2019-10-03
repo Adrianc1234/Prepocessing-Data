@@ -10,3 +10,12 @@ import pandas as pd
 import matplotlib.pyplot as plt
 import seaborn as sns
 ````
+# STEP 2:
+we made a function to get the target names of the file that we will read and after that we return the value of the names inside of the target names, in this case the names are "malignant" and "benign".
+````
+def cancer(value):
+    cancer = breast_cancer.target_names[value]
+    return cancer
+#python lamda function
+cancer_function = lambda x: breast_cancer.target_names[x]
+````
