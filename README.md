@@ -46,5 +46,14 @@ if we want to see the all the information about the Data Frame we can run this c
 ````
 data.info()
 ````
+we can check if some column has a empty values with this function, where .isnull() checks the empty values and the end .sum() make a sum to count how many b¿values are empty:
+````
+data.isnull().sum()
+````
+if we check how many types of values are in Types column, we use this function where the .Type say the column that we will check and the other function that is .value_counts() make the count of the values and print it.
+````
+data.Types.value_counts()
+````
 ## STEP 5:
+### we classify the different values in one specific Data Frame.
 
