@@ -34,4 +34,17 @@ data.columns = data.columns.str.replace(" ","")
 data.Types= data.Types.apply(cancer)
 data.head()
 ````
+and to see the some statistical calculations we make this code:
+````
+data.describe()
+````
+we can see the target_names using:
+````
+breast_cancer.target_names
+````
+if we want to see the all the information about the Data Frame we can run this code:
+````
+data.info()
+````
 ## STEP 5:
+
