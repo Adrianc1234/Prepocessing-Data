@@ -25,6 +25,9 @@ for this step we read the json and we print it to see the keys and other things 
 breast_cancer = datasets.load_breast_cancer()
 breast_cancer
 ````
+If you want to see the picture for this step, you can see the output:
+https://github.com/Adrianc1234/Cancer-/blob/master/imagen_1.png
+
 ## STEP 4:
 In this step we make a DataFrame and we call the json and use the key data to make the table with feature_names that has all the titles for the columns on the table after that, we make a column with the name Types and we call from the json the values that are in the key target and put them inside it, and after that we say how the Data Frame will read the title and we delete the space on them and for the end we apply the function to change 0 or 1 by the names on target_names.
 ````
@@ -34,7 +37,9 @@ data.columns = data.columns.str.replace(" ","")
 data.Types= data.Types.apply(cancer)
 data.head()
 ````
-and to see the some statistical calculations we make this code:
+you can see the output of this step here:
+
+And to see the some statistical calculations we make this code:
 ````
 data.describe()
 ````
