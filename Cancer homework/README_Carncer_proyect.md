@@ -75,7 +75,7 @@ https://github.com/Adrianc1234/Cancer/blob/master/Cancer%20homework/imagen_6.png
 ## STEP 5:
 ### we classify the different values in one specific Data Frame.
 We need to separate by titles the data set beacuse if we make graphs without separate it would look one over another because we have many data.
-`````Python
+````Python
 #making the frist table for mean
 means=pd.DataFrame(data.iloc[:,0:10])
 means['type']=breast_cancer.target
