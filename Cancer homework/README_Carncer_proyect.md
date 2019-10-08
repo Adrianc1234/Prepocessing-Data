@@ -74,4 +74,21 @@ https://github.com/Adrianc1234/Cancer/blob/master/Cancer%20homework/imagen_6.png
 
 ## STEP 5:
 ### we classify the different values in one specific Data Frame.
+We need to separate by titles the data set beacuse if we make graphs without separate it would look one over another because we have many data.
+`````Python
+#making the frist table for mean
+means=pd.DataFrame(data.iloc[:,0:10])
+means['type']=breast_cancer.target
+means.type= means.type.apply(cancer)
 
+#making dataframe for error
+error=pd.DataFrame(data.iloc[:,10:20])
+error['type']=breast_cancer.target
+error.type= error.type.apply(cancer)
+
+#making dataframe for worst
+worst=pd.DataFrame(data.iloc[:,20:30])
+worst['type']=breast_cancer.target
+worst.type= worst.type.apply(cancer)
+````
+Output:
