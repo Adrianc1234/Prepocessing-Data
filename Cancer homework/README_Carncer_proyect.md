@@ -26,7 +26,7 @@ breast_cancer = datasets.load_breast_cancer()
 breast_cancer
 ````
 If you want to see the picture for this step, you can see the output:
-https://github.com/Adrianc1234/Cancer-/blob/master/imagen_1.png
+https://github.com/Adrianc1234/Cancer/blob/master/Cancer%20homework/imagen_1.png
 
 ## STEP 4:
 In this step we make a DataFrame and we call the json and use the key data to make the table with feature_names that has all the titles for the columns on the table after that, we make a column with the name Types and we call from the json the values that are in the key target and put them inside it, and after that we say how the Data Frame will read the title and we delete the space on them and for the end we apply the function to change 0 or 1 by the names on target_names.
@@ -38,14 +38,14 @@ data.Types= data.Types.apply(cancer)
 data.head()
 ````
 You can see the output:
-https://github.com/Adrianc1234/Cancer-/blob/master/imagen_2.jpg
+https://github.com/Adrianc1234/Cancer/blob/master/Cancer%20homework/imagen_2.jpg
 
 And to see the some statistical calculations we make this code:
 ````Python
 data.describe()
 ````
 Output:
-https://github.com/Adrianc1234/Cancer-/blob/master/imagen_3.jpg
+https://github.com/Adrianc1234/Cancer/blob/master/Cancer%20homework/imagen_3.jpg
 
 We can see the target_names using:
 ````Python
@@ -56,21 +56,21 @@ If we want to see the all the information about the Data Frame we can run this c
 data.info()
 ````
 Output:
-https://github.com/Adrianc1234/Cancer-/blob/master/imagen_4.png
+https://github.com/Adrianc1234/Cancer/blob/master/Cancer%20homework/imagen_4.png
 
 We can check if some column has a empty values with this function, where .isnull() checks the empty values and the end .sum() make a sum to count how many b¿values are empty:
 ````Python
 data.isnull().sum()
 ````
 Output:
-https://github.com/Adrianc1234/Cancer-/blob/master/imagen_5.png
+https://github.com/Adrianc1234/Cancer/blob/master/Cancer%20homework/imagen_5.png
 
 If we check how many types of values are in Types column, we use this function where the .Type say the column that we will check and the other function that is .value_counts() make the count of the values and print it.
 ````Python
 data.Types.value_counts()
 ````
 Output:
-https://github.com/Adrianc1234/Cancer-/blob/master/imagen_6.png
+https://github.com/Adrianc1234/Cancer/blob/master/Cancer%20homework/imagen_6.png
 
 ## STEP 5:
 ### we classify the different values in one specific Data Frame.
