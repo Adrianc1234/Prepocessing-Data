@@ -92,3 +92,4 @@ worst['type']=breast_cancer.target
 worst.type= worst.type.apply(cancer)
 ````
 Output:
+https://github.com/Adrianc1234/Cancer/blob/master/Cancer%20homework/imagen_7.png
