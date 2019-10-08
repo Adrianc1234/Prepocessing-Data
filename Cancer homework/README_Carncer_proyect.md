@@ -93,3 +93,6 @@ worst.type= worst.type.apply(cancer)
 ````
 Output:
 https://github.com/Adrianc1234/Cancer/blob/master/Cancer%20homework/imagen_7.png
+
+## STEP 6
+
