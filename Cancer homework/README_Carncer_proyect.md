@@ -95,8 +95,56 @@ Output:
 https://github.com/Adrianc1234/Cancer/blob/master/Cancer%20homework/imagen_7.png
 
 ## STEP 6
-Now we use these different functions to show the histogram about data and get the standar deviation and others Statitical values.
+Now we use these different functions to show the histogram about data and get the standar deviation and others Statitical values.(We are using mathplotlib.plt) if we want to use one function of pandas then you need to write "nameofyourdataset.function".
+### Univariate analysis
 ````Python
+#Histograma
+plt.rcParams["figure.figsize"] = (20,20)
+mean_variables.hist()
+plt.suptitle("Histograms Mean Parameters")
+plt.show()
+
+#Boxplot
+mean_variables.boxplot()
+plt.title("Boxplot")
+plt.show()
+
+#Displot
+for column in mean_variables.columns[:9]:
+    g = sns.FacetGrid(cancer_data, hue = "TypeCancer", height = 4)
+    g = g.map(sns.distplot, column)
+    g = g.add_legend()
+    plt.show()
+    
+#Mean features
+plt.rcParams["figure.figsize"] = (10,10)
+mean_variables.groupby(by = 'Type').mean().plot(kind = "bar")
+plt.title("Dataset Mean Variables")
+plt.ylabel("Features Mean")
+plt.grid(True)
+plt.legend(loc = 'upper left', bbox_to_anchor = (1,1))
+plt.show()
+
+plt.rcParams["figure.figsize"] = (10,10)
+mean_variables.iloc[:, 4:].groupby(by = 'Type').mean().plot(kind = "bar")
+plt.title("Dataset Mean Variables")
+plt.ylabel("Features Mean")
+plt.grid(True)
+plt.legend(loc = 'upper left', bbox_to_anchor = (1,1))
+plt.show()
+````
+### Multivariate analysis
+````Python
+# Correlation matrix Mean variables
+correlation_matrix_mean = mean_variables.corr()
+
+# Heatmap
+sns.heatmap(correlation_matrix_mean, annot = True, cmap ='RdBu')
+plt.show()
+
+#Pairplot
+g = sns.pairplot(mean_variables, hue = 'Type')
+plt.show()
 ````
 ## STEP 7
 show the graphics.
