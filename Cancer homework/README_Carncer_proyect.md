@@ -151,32 +151,35 @@ plt.show()
 In this part we make all the respective graphs for every DataFrame that we divided by "Mean", "Error" and "worst".
 #### Univariate graphs:
 You can see in this folder the Univariate graphs:
-Folder:
 https://github.com/Adrianc1234/Prepocessing-Data/tree/master/Cancer%20homework/Univariate
 #### Conclusions:
+
 ##### Boxplot:
-Mean:
-Error:
-Worst:
+###### Mean:
+###### Error:
+###### Worst:
+
 ##### Features:
-Mean:
-Error:
-Worst:
+###### Mean:
+###### Error:
+###### Worst:
+
 ##### Histogram:
-Mean:
-Error:
-Worst:
+###### Mean:
+###### Error:
+###### Worst:
 
 #### Multivariate graphs:
 You can see in this folder the Multivariate graphs:
-Folder:
 https://github.com/Adrianc1234/Prepocessing-Data/tree/master/Cancer%20homework/Multivariate
 #### Conclusions:
+
 ##### Pairplot:
-Mean:
-Error:
-Worst:
+###### Mean:
+###### Error:
+###### Worst:
+
 ##### Correlation matrix:
-Mean:
-Error:
-Worst:
+###### Mean:
+###### Error:
+###### Worst:
