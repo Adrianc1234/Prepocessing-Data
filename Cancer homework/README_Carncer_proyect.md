@@ -95,4 +95,8 @@ Output:
 https://github.com/Adrianc1234/Cancer/blob/master/Cancer%20homework/imagen_7.png
 
 ## STEP 6
-
+Now we use these different functions to show the histogram about data and get the standar deviation and others Statitical values.
+````Python
+````
+## STEP 7
+show the graphics.
