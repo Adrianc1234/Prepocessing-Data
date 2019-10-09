@@ -149,9 +149,11 @@ plt.show()
 ## STEP 7
 ### showing the graphics.
 In this part we make all the respective graphs for every DataFrame that we divided by "Mean", "Error" and "worst".
-you can see in this folder the Univariate graphs:
+
+You can see in this folder the Univariate graphs:
 #### Folder:
 https://github.com/Adrianc1234/Prepocessing-Data/tree/master/Cancer%20homework/Univariate
+
 You can see in this folder the Multivariate graphs:
 #### Folder:
 https://github.com/Adrianc1234/Prepocessing-Data/tree/master/Cancer%20homework/Multivariate
