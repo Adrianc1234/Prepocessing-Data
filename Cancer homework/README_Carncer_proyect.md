@@ -198,3 +198,6 @@ https://github.com/Adrianc1234/Prepocessing-Data/tree/master/Cancer%20homework/M
 
 ###### Worst: In the pairplot for worst, happens a similar case to the mean parameters, the worst fractal dimension and the worst texture with worst smoothness are not clear for a classification 
 
+#### Conclusions:
+
+##### Given the multivariate and univariate analysis we can conclude that the most relevant parameters to perform a classification of a benign or a malignant type of cancer are area, perimeter and radius, the rest are relevant to perform a classification but it is important to point out the fractal dimension would help in a classification process since it has a low correlation between the rest of the parameters, and the pair plot does not share a clear path to perform a classification between the variables.
