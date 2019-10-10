@@ -155,31 +155,46 @@ https://github.com/Adrianc1234/Prepocessing-Data/tree/master/Cancer%20homework/U
 #### Conclusions:
 
 ##### Boxplot:
-###### Mean:
-###### Error:
-###### Worst:
+###### Mean: The box of the meanarea shows an important difference taking into account that the rest of the parameters are smaller quantities 
+
+###### Error: The same happens in errorarea as a relevant parameter to perform the classification since it is the same area and it represents an larger quantity
+
+###### Worst: The worstarea is the most visible parameter 
+
 
 ##### Features:
-###### Mean:
-###### Error:
-###### Worst:
+###### Mean:  Mean area shows an important difference between the malignant and benign types of cancer, but it is clear that is the parameter with the largest quantities so we decided to plot the rest parameters excluding the mean area, and we realized that an important parameter that shows an important difference is the meanconcavitiy and meancompacteness, the rest of parameters are irrelevant since this do not show an important difference in quantity between the type of cancer.
+
+###### Error: Error area is the parameter that shows an important difference followed by the concavity error and compactness error as these parameters are correlated to the mean parameters.
+
+###### Worst: The same happens to the worst parameters, worst concavity, worst compactness and worst area.
 
 ##### Histogram:
-###### Mean:
-###### Error:
-###### Worst:
+
+###### Mean:Mean smoothness mean texture and mean texture histograms show that our data has a tendency to be normally distributed, contrary to the rest of the parameter which are positively skewed.
+###### Error: The histograms for the error parameters show that are positively skewed, this means that most of the observations are close to cero and there a few parameters with a large error.
+###### Worst: Worst smoothness and worst texture are normally distributed, contrary to the rest of the parameters which are positively skewed.
+
 
 #### Multivariate graphs:
 You can see in this folder the Multivariate graphs:
 https://github.com/Adrianc1234/Prepocessing-Data/tree/master/Cancer%20homework/Multivariate
 #### Conclusions:
 
-##### Pairplot:
-###### Mean:
-###### Error:
-###### Worst:
-
 ##### Correlation matrix:
-###### Mean:
-###### Error:
-###### Worst:
+
+###### Mean: In the correlation matrix the variables with the most obvious correlation are mean area and mean radius, the other important correlation was the mean area and the mean perimeter with a correlation of .99; other relevant correlations were mean concave points with mean concavity with a correlation of .92; mean compactness with mean concavity with .88. Mean concave points share a correlation above .80 with mean radius, mean area, mean perimeter. In the other hand mean fractal dimension shared a negative correlation between mean radius, mean texture, mean perimeter and mean area.
+
+###### Error: In the correlation matrix the parameters that shows an important correlation are perimeter error and the radius error with a correlation of .97 which can be obvious, the error area shows important correlation with the radius error and the perimeter error with .94 and .95 respectively, compactness error shares a relevant correlation between fractal dimension error, concave points error and concavity error with a correlation close to .80; concavity error shows a correlation with fractal dimension and concave points error. The rest of the parameters share a low correlation.
+ 
+###### Worst: In the correlation matrix of the parameters with the worst prefix, it shares a similar relation between the error parameters with just a  small difference.
+
+##### Pairplot:
+
+###### Mean: The pairplot for the mean shows an important separation of types of cancer, except for the meanfractaldimension parameter which its data overlaps and there is no clear difference between the types, so I wouldn’t be relevant for a later classification.
+
+###### Error: For the error parameters just radius error, perimeter error and area error are the variables that shows a difference between the types, when these parameters are plotted with the rest of the variables.
+
+
+###### Worst: In the pairplot for worst, happens a similar case to the mean parameters, the worst fractal dimension and the worst texture with worst smoothness are not clear for a classification 
+
