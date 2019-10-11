@@ -1,7 +1,7 @@
 # DATA BASE ABOUT CANCER USING EDA-CANCER
 # STEPS:
 ## STEP 1:
-we imported the libreries that we used to make that the functions or tools works
+We imported the libreries that we used to make that the functions or tools works
 these are the libreries that you need to import and you need to have installed on your computer like mathplotlib that is a librery that python does not have installed.
 ````Python
 from sklearn import datasets
@@ -29,7 +29,7 @@ If you want to see the picture for this step, you can see the output:
 https://github.com/Adrianc1234/Cancer/blob/master/Cancer%20homework/imagen_1.png
 
 ## STEP 4:
-In this step we make a DataFrame and we call the json and use the key data to make the table with feature_names that has all the titles for the columns on the table after that, we make a column with the name Types and we call from the json the values that are in the key target and put them inside it, and after that we say how the Data Frame will read the title and we delete the space on them and for the end we apply the function to change 0 or 1 by the names on target_names.
+In this step we make a DataFrame and we call the json and use the key data to make the table with feature_names which has all the titles for the columns on the table. Then, we make a column with the name Types and we call from the json the values that are in the key target and put them inside it; after we say how the Data Frame will read the title and we delete the space on them and for the end we apply the function to change 0 or 1 by the names on target_names.
 ````Python
 data= pd.DataFrame(breast_cancer.data, columns= breast_cancer.feature_names)
 data['Types']= breast_cancer.target
@@ -40,7 +40,7 @@ data.head()
 You can see the output:
 https://github.com/Adrianc1234/Cancer/blob/master/Cancer%20homework/imagen_2.jpg
 
-And to see the some statistical calculations we make this code:
+And to see some statistical calculations we make this code:
 ````Python
 data.describe()
 ````
@@ -51,21 +51,21 @@ We can see the target_names using:
 ````Python
 breast_cancer.target_names
 ````
-If we want to see the all the information about the Data Frame we can run this code:
+If we want to see  all the information about the Data Frame we can run this code:
 ````Python
 data.info()
 ````
 Output:
 https://github.com/Adrianc1234/Cancer/blob/master/Cancer%20homework/imagen_4.png
 
-We can check if some column has an empty values with this function, where .isnull() checks the empty values and the end .sum() make a sum to count how many values are empty:
+We can check if some column has an empty values with this function, where .isnull() function checks the empty values and the .sum() function makes a sum to count how many values are empty:
 ````Python
 data.isnull().sum()
 ````
 Output:
 https://github.com/Adrianc1234/Cancer/blob/master/Cancer%20homework/imagen_5.png
 
-If we check how many types of values are in Types column, we use this function where the .Type say the column that we will check and the other function that is .value_counts() make the count of the values and print it.
+If we check how many types of values are in Types column, we use this function where the .Type says the column that we will check and the other function that is .value_counts() make the count of the values and print it.
 ````Python
 data.Types.value_counts()
 ````
@@ -74,7 +74,7 @@ https://github.com/Adrianc1234/Cancer/blob/master/Cancer%20homework/imagen_6.png
 
 ## STEP 5:
 ### we classify the different values in one specific Data Frame.
-We need to separate by titles the data set beacuse if we make graphs without separate it would look one over another because we have many data.
+We need to separate by titles the data set beacuse if we don't, it will look one over another because we have many data.
 ````Python
 #making the frist table for mean
 means=pd.DataFrame(data.iloc[:,0:10])
@@ -171,7 +171,7 @@ https://github.com/Adrianc1234/Prepocessing-Data/tree/master/Cancer%20homework/U
 
 ##### Histogram:
 
-- Mean:Mean smoothness mean texture and mean texture histograms show that our data has a tendency to be normally distributed, contrary to the rest of the parameter which are positively skewed.
+- Mean:   Mean smoothness mean texture and mean texture histograms show that our data has a tendency to be normally distributed, contrary to the rest of the parameter which are positively skewed.
 - Error: The histograms for the error parameters show that are positively skewed, this means that most of the observations are close to cero and there a few parameters with a large error.
 - Worst: Worst smoothness and worst texture are normally distributed, contrary to the rest of the parameters which are positively skewed.
 
