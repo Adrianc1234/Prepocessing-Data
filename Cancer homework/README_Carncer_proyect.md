@@ -58,7 +58,7 @@ data.info()
 Output:
 https://github.com/Adrianc1234/Cancer/blob/master/Cancer%20homework/imagen_4.png
 
-We can check if some column has a empty values with this function, where .isnull() checks the empty values and the end .sum() make a sum to count how many b¿values are empty:
+We can check if some column has an empty values with this function, where .isnull() checks the empty values and the end .sum() make a sum to count how many values are empty:
 ````Python
 data.isnull().sum()
 ````
