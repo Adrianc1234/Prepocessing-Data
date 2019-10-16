@@ -1,7 +1,8 @@
 # The instructions are on the PDF, i hope that these files are helpful for you.
-### resoucers:
-you can read about the topic here but they are using the programming language R:
+### Resoucers:
+You can read about the topic here but they are using the programming language R:
 https://github.com/Adrianc1234/Prepocessing-Data/blob/master/Tidy-Data/tidy-data.pdf
+
 ### Instructions:
 https://github.com/Adrianc1234/Prepocessing-Data/blob/master/Tidy-Data/CA4._Tidy_Data.pdf
 
@@ -10,3 +11,4 @@ https://github.com/Adrianc1234/Prepocessing-Data/tree/master/Tidy-Data/Data-set
 
 ### FILE:
 The description of the process that I did is on the other file, that you can see in this link: 
+
