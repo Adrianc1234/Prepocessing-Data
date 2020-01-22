@@ -1,1 +1,1 @@
-# These are files to share a way to search outliers in a data base.
+# Searching Outliers in a data base
