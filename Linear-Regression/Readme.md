@@ -1,1 +1,1 @@
-## Linear regression
+## Linear regression to full columns
